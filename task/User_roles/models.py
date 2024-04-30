@@ -4,7 +4,7 @@ from django.db import models
 class User(models.Model):
     User_id = models.AutoField(primary_key=True)
     Username = models.CharField(max_length=50)
-    Place = models.CharField(max_length=60)git add .
+    Place = models.CharField(max_length=60)
     email=models.EmailField(max_length=50)
 
     def __str___(self):
